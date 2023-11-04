@@ -1,0 +1,3 @@
+# Python Proxy Pattern for Method Tracking
+This Python code defines a class named Proxy designed to act as a method call proxy, allowing method invocations on an underlying object while tracking method call counts and the last invoked method. The Proxy class employs the __getattr__ method to intercept method calls and maintain a dictionary of method call counts. Additionally, it offers methods to query the last invoked method, count of method calls, and whether a specific method was called. The code also includes a simple Radio class with attributes and methods representing a radio device. While the code serves its intended purpose, it could be enhanced with better error handling and documentation for improved usability.
+
